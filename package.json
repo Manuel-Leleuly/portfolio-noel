@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-noel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwind build assets/css/portfolio.css -o assets/newcss/portfolio.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manuel-Leleuly/portfolio-noel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manuel-Leleuly/portfolio-noel/issues"
+  },
+  "homepage": "https://github.com/Manuel-Leleuly/portfolio-noel#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  }
+}
