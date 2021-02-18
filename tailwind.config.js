@@ -6,6 +6,10 @@ module.exports = {
       center: true,
       padding: '2rem'
     },
+    screens: {
+      'smartphone': {'max': '600px'},
+      'desktop': {'min': '601px'},
+    },
   },
   variants: {
     extend: {},

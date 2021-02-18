@@ -1,4 +1,19 @@
+@import './imports/variables';
 @import './imports/tailwindCSS';
 @import './imports/buttons';
+
+body{
+    background: $backgroundColor;
+
+    #menu-toggle{
+        &:checked{
+            + #menu{
+                display: block;
+            }
+        }
+    }
+}
+
+
 
 

@@ -8,3 +8,25 @@
         }
     }
 }
+
+.href{
+    &.href-link{
+        @apply text-white text-sm mx-3 transition duration-300;
+
+        &:hover{
+            @apply text-gray-500;
+        }
+    }
+
+    &.href-bg-gray{
+        @apply bg-gray-700 px-5 py-3 rounded-full shadow border border-solid border-transparent;
+
+        &:hover{
+            @apply bg-white text-gray-700 border-gray-700;
+        }
+    }
+
+    &.href-link-mobile{
+        @apply text-white block text-center my-5;
+    }
+}

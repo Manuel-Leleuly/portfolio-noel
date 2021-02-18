@@ -12,3 +12,31 @@
 .btn-blue:hover {
   @apply bg-blue-400;
 }
+
+.href.href-link {
+  @apply text-white text-sm mx-3 transition duration-300;
+}
+
+.href.href-link:hover {
+  @apply text-gray-500;
+}
+
+.href.href-bg-gray {
+  @apply bg-gray-700 px-5 py-3 rounded-full shadow border border-solid border-transparent;
+}
+
+.href.href-bg-gray:hover {
+  @apply bg-white text-gray-700 border-gray-700;
+}
+
+.href.href-link-mobile {
+  @apply text-white block text-center my-5;
+}
+
+body {
+  background: #1f1f1f;
+}
+
+body #menu-toggle:checked + #menu {
+  display: block;
+}

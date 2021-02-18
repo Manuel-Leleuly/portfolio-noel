@@ -9,11 +9,49 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet"> 
+    
 </head>
-<body class="bg-blue-700">
-    <div class="container">
-        <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded">Find Friends</button>
-        <button class="btn btn-blue">Find Groups</button>
-    </div>
+<body>
+    <section id="navbar" class="fixed w-full">
+        <div class="bg-transparent pt-7 pb-5 px-24 flex item-center flex-wrap justify-between smartphone:px-7">
+            <div id="left-navbar">
+                <a href="#">
+                    <p class="capitalize text-white font-bold font-sans text-lg">noel leleuly</p>
+                </a>
+            </div>
+
+            <div class="smartphone:hidden right-navbar font-sans flex items-center justify-between">
+                <nav>
+                    <ul class="desktop:flex items-center justify-between">
+                        <li>
+                            <a href="#" class="uppercase href href-link">home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="uppercase href href-link">about</a>
+                        </li>
+                        <li>
+                            <a href="#" class="uppercase href href-link href-bg-gray">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- hidden menu -->
+            <label for="menu-toggle" class="smartphone:block hidden text-white cursor-pointer">
+                <div class="w-5 h-0.5 bg-white mb-1 mt-1"></div>
+                <div class="w-5 h-0.5 bg-white"></div>
+                <div class="w-5 h-0.5 bg-white mt-1"></div>
+            </label>
+            <input type="checkbox" name="menu" id="menu-toggle" class="hidden">
+        </div>
+
+        <div id="menu" class="smartphone:hidden hidden absolute w-4/5 uppercase bg-gray-500 shadow left-1/2 -translate-x-1/2 transform mt-5">
+            <a href="#" class="href href-link-mobile">home</a>
+            <a href="#" class="href href-link-mobile">about</a>
+            <a href="#" class="href href-link-mobile">contact</a>
+        </div>
+    </section>
+
+    <script src="../assets/js/portfolio.js"></script>
 </body>
 </html>
